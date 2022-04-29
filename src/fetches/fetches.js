@@ -1,7 +1,7 @@
 const getUserInfo = async () => {
     const response = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=${process.env.REACT_APP_API_KEY}`)
     const json = await response.json();
-    console.log(json)
+    // console.log(json)
     const ip = await json.ip;
     const country = await json.location.country;
     const city = await json.location.city;
@@ -23,6 +23,8 @@ const getUserInfo = async () => {
 
 export { getUserInfo }
 
+
+// mock JSON return from Geo IP API
 // {
 //     "ip": "2.204.228.10",
 //     "location": {
