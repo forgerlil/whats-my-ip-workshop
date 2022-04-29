@@ -1,7 +1,7 @@
 {
   "name": "whats-my-ip-workshop",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://forgerlil.github.io/whats-my-ip-workshop/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
