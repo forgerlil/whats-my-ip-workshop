@@ -20,8 +20,8 @@ function App() {
   // }, [])
 
   return (
-    <>
-      <Map height={600} defaultCenter={[50.11552, 8.68417]} defaultZoom={11}>
+    <div className="root-wrapper">
+      <Map defaultCenter={[50.11552, 8.68417]} defaultZoom={11}>
         {/* <Marker width={50} anchor={[ipInfo.lat, ipInfo.lng]} /> */}
         {/* <img className="bg-img" src="" alt="" /> */}
         <div className="ip-container">
@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
       </Map>
-    </>
+    </div>
   );
 }
 
