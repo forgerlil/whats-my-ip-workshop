@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/whats-my-ip-workshop/static/css/main.31d6cfe0.css",
+    "main.js": "/whats-my-ip-workshop/static/js/main.c5d6427d.js",
+    "static/js/787.2ce95215.chunk.js": "/whats-my-ip-workshop/static/js/787.2ce95215.chunk.js",
+    "index.html": "/whats-my-ip-workshop/index.html",
+    "main.c5d6427d.js.map": "/whats-my-ip-workshop/static/js/main.c5d6427d.js.map",
+    "787.2ce95215.chunk.js.map": "/whats-my-ip-workshop/static/js/787.2ce95215.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.c5d6427d.js"
+  ]
+}
